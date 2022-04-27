@@ -1,0 +1,28 @@
+{% extends "main/base.html" %}
+{% block header %}
+    <header>
+        <h1>Create task</h1>
+    </header>
+
+{% endblock %}
+{% block main %}
+    <div class="container">
+        <div class="row">
+            <div class="card mb-4  mt-3">
+                <div class="card-body">
+                    <form enctype="multipart/form-data" method="post">{% csrf_token %}
+                        {{ form.as_p }}
+                        <button type="submit" class="btn btn-primary" value="Create">Create</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block footer %}
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+
+{% endblock %}
