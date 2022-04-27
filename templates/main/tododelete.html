@@ -1,11 +1,12 @@
 {% extends "main/base.html" %}
 {% block header %}
     <header>
-        <h1>{{ todo.title }}</h1>
+        <h1>Create task</h1>
     </header>
 
 {% endblock %}
 {% block main %}
+
     <div class="container">
         <div class="row">
             <div class="card mb-4  mt-3">
@@ -13,12 +14,13 @@
                     <form method="post">{% csrf_token %}
                         <p>Are you sure you want to delete "{{ object }}"?</p>
                         {{ form }}
-                        <input type="submit" value="Confirm">
+                        <button type="submit" class="btn btn-primary" value="Confirm">Confirm</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+
 {% endblock %}
 
 {% block footer %}
