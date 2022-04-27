@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse_lazy
-from django.views.generic import ListView, DetailView, UpdateView, CreateView
+from django.views.generic import ListView, DetailView, UpdateView, CreateView, DeleteView
 
 from main.models import ToDo
 
@@ -35,8 +35,11 @@ class ToDoCreate(CreateView):
     template_name = 'main/todocreate.html'
 
 
-class ToDoDelete(DetailView):
+class ToDoDelete(DeleteView):
     model = ToDo
-    template_name = 'main/tododelete.html'
     success_url = '/'
+    template_name = 'main/tododelete.html'
+
+    def get(self, request, *args, **kwargs):
+        return self.post(request, *args, **kwargs)
 
