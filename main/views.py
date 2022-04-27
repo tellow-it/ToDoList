@@ -23,14 +23,14 @@ class ToDoDetail(DetailView):
 
 class ToDoUpdate(UpdateView):
     model = ToDo
-    fields = ['title', 'category', 'description', 'deadline']
+    fields = ['important', 'title', 'category', 'description', 'deadline']
     template_name = 'main/todoupdate.html'
     success_url = '/'
 
 
 class ToDoCreate(CreateView):
     model = ToDo
-    fields = ['title', 'slug', 'category', 'description', 'deadline']
+    fields = ['important', 'title', 'slug', 'category', 'description', 'deadline']
     success_url = '/'
     template_name = 'main/todocreate.html'
 
