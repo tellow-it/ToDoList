@@ -4,18 +4,21 @@ to do application
 
 ## Start page
 
-![image](https://user-images.githubusercontent.com/84245620/165522887-298be67c-350f-4fab-b4ab-e2f38d6e9933.png)
+![image](https://user-images.githubusercontent.com/84245620/165585590-4163ebe6-78ee-4e5e-97a5-d59592d63b19.png)
 
 ## Detail page
 
-![image](https://user-images.githubusercontent.com/84245620/165522942-3b6bbbd2-a8d8-48ae-a23c-605ffa5b318f.png)
+![image](https://user-images.githubusercontent.com/84245620/165585628-da25f753-4555-43f0-ae20-6104d1260c81.png)
 
 ## Edit page
 
-![image](https://user-images.githubusercontent.com/84245620/165522987-37634b60-7b1f-4c36-87af-30b8398ab8c1.png)
+![image](https://user-images.githubusercontent.com/84245620/165585655-3dacae39-922f-4b5b-a85e-b1a2ce90237d.png)
 
 ## Create page
 
-![image](https://user-images.githubusercontent.com/84245620/165523027-00ff2044-3252-485d-8c74-5d033266d5aa.png)
+![image](https://user-images.githubusercontent.com/84245620/165585710-ab8f2906-b7c8-4f69-945f-efb7522b96e8.png)
 
+## Delete page
+
+![image](https://user-images.githubusercontent.com/84245620/165585769-8a970d29-b57d-42de-a570-6baaa4a55ed4.png)
 
